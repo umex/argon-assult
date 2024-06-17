@@ -240,6 +240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 208252653}
+  - component: {fileID: 208252654}
   m_Layer: 0
   m_Name: Scoreboard
   m_TagString: Untagged
@@ -262,6 +263,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &208252654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208252652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b728fe6f5c1b5641941abb27060bc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &488967613
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &488967615
 Animator:
   serializedVersion: 5
@@ -439,6 +454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &691893756
 Animator:
   serializedVersion: 5
@@ -680,6 +697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &1215219146
 Animator:
   serializedVersion: 5
@@ -822,6 +841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &1407581202
 Animator:
   serializedVersion: 5
@@ -1076,6 +1097,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 1645834636}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!1 &1721256756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &1721256758
 Animator:
   serializedVersion: 5
@@ -1253,6 +1278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   parent: {fileID: 72044081}
+  scorePerHit: 15
+  hitPoints: 1
 --- !u!95 &1830499584
 Animator:
   serializedVersion: 5

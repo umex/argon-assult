@@ -9,6 +9,7 @@ Build/
 Builds/
 Logs/
 UserSettings/
+.vs/
 
 # Unity3D generated meta files
 *.pidb.meta
