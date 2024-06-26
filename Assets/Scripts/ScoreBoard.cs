@@ -18,7 +18,7 @@ public class ScoreBoard : MonoBehaviour
     {
         score += amountToIncrease;
         Debug.Log(score);
-        // scoreText.text = score.ToString();
+        scoreText.text = score.ToString();
     }
 
 }

@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
-        ProcessHit();
+        // ProcessHit();
         KillEnemy();
     }
 
