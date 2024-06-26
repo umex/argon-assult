@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 72044081}
   m_Layer: 0
   m_Name: Spawn At Runtime
-  m_TagString: Untagged
+  m_TagString: SpawnAtRuntime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 1
 --- !u!95 &488967615
@@ -479,7 +478,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 30
 --- !u!95 &691893756
@@ -723,7 +721,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 1
 --- !u!95 &1215219146
@@ -868,7 +865,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 5
 --- !u!95 &1407581202
@@ -1125,7 +1121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 1645834636}
   scorePerHit: 15
   hitPoints: 5
 --- !u!1 &1721256756
@@ -1163,7 +1158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 10
 --- !u!95 &1721256758
@@ -1308,7 +1302,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3200836327345539238, guid: 6026061cb5ac50f4384b8bc9947bf659, type: 3}
   hitVFX: {fileID: 3200836327345539238, guid: 77bf201c8d278fa40bb26f2eaec6f28e, type: 3}
-  parent: {fileID: 72044081}
   scorePerHit: 15
   hitPoints: 1
 --- !u!95 &1830499584
